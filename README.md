@@ -100,10 +100,10 @@ You don't need to save the old origin as
 `svenanderzen/data-science-template-repo` unless you want to. However, it could
 prove useful to keep it around in case you want to pull down template updates
 and fixes in the future. This way you can just update your projects repository
-with a simple rebase:
+with a simple merge commit:
 
 ```
-git rebase svenanderzen/data-science-template-repo master
+git pull svenanderzen/data-science-template-repo master
 ```
 
 ## Cleaning up after yourself
